@@ -13,7 +13,7 @@ public static void main (String args[])
     SocialStudy = sc.nextDouble();
 	Language = sc.nextDouble();
     CGPA = (English + Language + Maths + Science + SocialStudy)/(5.0);  
-    CGPAper = (float)(9.5 * (CGPA));  
-    System.out.println(" CGPA Percentage is:  "+CGPAper);  
+    
+    System.out.println(" CGPA Percentage is:  "+CGPA);  
     }  
 }  
